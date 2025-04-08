@@ -1,0 +1,90 @@
+/* .sec2 {
+    background: black;  
+    color: white;       
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+.first {
+    width: 60%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.second div {
+    width: 45%;
+}
+
+progress {
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    border: none;
+} */
+
+
+
+.sec2 {
+    background: black;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.first {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px; /* إضافة مسافة بين الأعمدة */
+}
+
+.second div {
+    width: 45%;
+}
+
+progress {
+    width: 100%;
+    height: 15px; /* زيادة الارتفاع لتحسين المظهر */
+    background-color: #333; /* خلفية داكنة للأشرطة */
+    border-radius: 10px; /* إضافة حواف دائرية للأشرطة */
+    border: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #333; /* نفس الخلفية للأشرطة */
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #4caf50; /* اللون الأخضر للشريط المكتمل */
+    border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+    background-color: #4caf50; /* اللون الأخضر للشريط المكتمل في المتصفحات غير كروم */
+    border-radius: 10px;
+}
