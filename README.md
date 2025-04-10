@@ -13,7 +13,7 @@ This is a simple and responsive personal profile website built using HTML, CSS, 
 - JavaScript (vanilla)
 
 ## Demo
-You can view the website (https://marwafaisal821.github.io/Profile/)
+You can view the website (https://marwafaisal821.github.io/Portfolio/)
 
 ## Author
 Developed by Marwa Faisal as part of the ITI program.
